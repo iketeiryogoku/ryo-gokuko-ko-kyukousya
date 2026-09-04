@@ -728,8 +728,6 @@
       if (ticketNumber === null) {
         ticketNumberElement.textContent = "--";
         waitingCountElement.textContent = "--";
-        ticketCaptionElement.textContent = "URLに受付番号が指定されていません";
-        statusMessageElement.textContent = "受付時のURL（例：?no=20）からアクセスしてください";
         statusMessageElement.className = "status-message";
         return;
       }
